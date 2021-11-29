@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.epoll">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_new"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_new"
+        android:supportsRtl="true"
+
+        android:theme="@style/Theme.EPoll">
+        <activity android:name=".ViewImage"></activity>
+        <activity android:name=".AdminVerification" />
+        <activity android:name=".VotingReceipts" />
+        <activity android:name=".About" />
+        <activity android:name=".CreateElection" />
+        <activity android:name=".AdminApproval" />
+        <activity android:name=".CreatePoll" />
+        <activity android:name=".ManageUsers" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Logs" />
+        <activity android:name=".UserPollSelect" />
+        <activity android:name=".LiveUpdatesSelected" />
+        <activity android:name=".UserVoteSelect" />
+        <activity android:name=".AdminPoll" />
+        <activity android:name=".AdminElection" />
+        <activity android:name=".AdminVoters" />
+        <activity android:name=".UserPoll" />
+        <activity android:name=".UserVote" />
+        <activity android:name=".Administrator" />
+        <activity android:name=".UserProfile" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <provider
+                android:name="androidx.core.content.FileProvider"
+                android:authorities="com.example.android.fileprovider"
+                android:exported="false"
+                android:grantUriPermissions="true">
+                <meta-data
+                    android:name="android.support.FILE_PROVIDER_PATHS"
+                    android:resource="@xml/file_paths"></meta-data>
+            </provider>
+
+
+    </application>
+
+</manifest>

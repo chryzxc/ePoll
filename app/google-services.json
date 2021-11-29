@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "232082428044",
+    "firebase_url": "https://epoll-38b9c-default-rtdb.firebaseio.com",
+    "project_id": "epoll-38b9c",
+    "storage_bucket": "epoll-38b9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232082428044:android:ce5899161ac5d9fe24aba9",
+        "android_client_info": {
+          "package_name": "com.example.epoll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232082428044-itar5vsaq7hgm3baq8cf8n0iofu765ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEGdkDONHhkQy_ej9Jcs2u2wzNzQnzTyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232082428044-itar5vsaq7hgm3baq8cf8n0iofu765ke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
